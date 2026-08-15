@@ -1,0 +1,40 @@
+{
+  "DS1_material_properties_5500.csv": {
+    "rows": 5500,
+    "columns": 18,
+    "completeness": 1.0,
+    "duplicates": 0,
+    "physics_violations": [],
+    "passed": true
+  },
+  "DS2_commodity_prices_10yr.csv": {
+    "rows": 22952,
+    "columns": 24,
+    "completeness": 0.9949895433949111,
+    "duplicates": 0
+  },
+  "DS3_infrastructure_bridges_5000.csv": {
+    "rows": 5000,
+    "columns": 24,
+    "completeness": 1.0,
+    "duplicates": 0
+  },
+  "DS4_crossdomain_features_daily.csv": {
+    "rows": 22952,
+    "columns": 12,
+    "completeness": 0.9974148948530266,
+    "duplicates": 0
+  },
+  "DS5_element_prices_monthly.csv": {
+    "rows": 5280,
+    "columns": 5,
+    "completeness": 1.0,
+    "duplicates": 0
+  },
+  "DS6_historical_failures_2000.csv": {
+    "rows": 2000,
+    "columns": 18,
+    "completeness": 1.0,
+    "duplicates": 0
+  }
+}

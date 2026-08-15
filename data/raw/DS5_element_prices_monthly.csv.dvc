@@ -1,0 +1,5 @@
+outs:
+- md5: 2e94e0b91bba44fc3634c161521e43e4
+  size: 170379
+  path: DS5_element_prices_monthly.csv
+

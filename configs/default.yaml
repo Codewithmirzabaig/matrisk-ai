@@ -1,0 +1,19 @@
+random_seed: 42
+material:
+  targets: [formation_energy_per_atom_eV, band_gap_eV, bulk_modulus_GPa, shear_modulus_GPa]
+  test_size: 0.2
+  n_estimators: 300
+commodity:
+  horizon_days: 21
+  train_window: 252
+  validation_window: 63
+  test_window: 21
+  transaction_cost_bps: 10
+survival:
+  horizon_years: 5
+insurance:
+  simulations: 10000
+  tvar_quantile: 0.995
+stress:
+  simulations: 10000
+
