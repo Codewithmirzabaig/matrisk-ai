@@ -1,8 +1,11 @@
 """Train and persist the leakage-safe material baseline."""
 from __future__ import annotations
+
 import json
 from pathlib import Path
+
 import joblib
+
 from src.data.loaders import load_csv
 from src.models.material import train_material_model
 

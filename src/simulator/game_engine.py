@@ -1,5 +1,6 @@
 """Two-level MatRisk Lab campaign state and scoring engine."""
 from __future__ import annotations
+
 from dataclasses import dataclass, replace
 
 
@@ -32,9 +33,8 @@ def apply_decision(state: GameState, maintenance: float, hedge_fraction: float,
     risk_bonus=200 if new_condition>=6 else 60
     efficiency=max(0,150-int(maintenance/2000))
     score=state.score+risk_bonus+efficiency+int(max(-100,hedge_pnl/1000))
-    next_level=2 if state.level==1 else 2
+    next_level=2
     return replace(state,level=next_level,cash=ending,asset_condition=new_condition,
                    commodity_position=hedge,insurance_limit=insurance,score=score,turns=state.turns+1), {
         "scenario":scenario["title"],"physical_loss":physical_loss,"insured_recovery":insured,
         "hedge_pnl":hedge_pnl,"ai_benchmark":"Maintain condition ≥6, insure tail loss, hedge shock exposure"}
-

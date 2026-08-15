@@ -1,5 +1,6 @@
 """Physics constraints usable by both neural and tabular prediction layers."""
 from __future__ import annotations
+
 import numpy as np
 
 

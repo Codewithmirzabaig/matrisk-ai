@@ -1,6 +1,7 @@
 """FastAPI service for health and financial-risk inference."""
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
+
 from src.financial.credit_risk import calculate_credit_risk
 
 app=FastAPI(title="MatRisk AI",version="1.0.0")

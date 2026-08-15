@@ -1,12 +1,11 @@
 """Six-view MatRisk decision cockpit, including the two-level Lab simulator."""
 from __future__ import annotations
-
 from pathlib import Path
-
 import pandas as pd
+import numpy as np
+import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit as st
 
 from src.data.loaders import load_csv, merge_market_data
 from src.financial.credit_risk import calculate_credit_risk

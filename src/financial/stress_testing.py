@@ -1,5 +1,6 @@
 """Five-scenario Monte Carlo material-financial stress engine."""
 from __future__ import annotations
+
 import numpy as np
 
 SCENARIOS={

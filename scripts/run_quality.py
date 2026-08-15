@@ -1,7 +1,9 @@
 """Generate a machine-readable quality report for all supplied datasets."""
 from __future__ import annotations
+
 import json
 from pathlib import Path
+
 from src.data.loaders import load_csv, validate_materials
 
 root=Path(__file__).resolve().parents[1]; raw=root/"data"/"raw"; out=root/"artifacts"

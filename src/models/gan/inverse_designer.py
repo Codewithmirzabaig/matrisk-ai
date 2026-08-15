@@ -1,5 +1,6 @@
 """Cost-aware inverse design baseline with GAN-compatible softmax compositions."""
 from __future__ import annotations
+
 import numpy as np
 import pandas as pd
 

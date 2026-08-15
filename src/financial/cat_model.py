@@ -1,5 +1,6 @@
 """Compound-Poisson catastrophe simulation and tail-risk metrics."""
 from __future__ import annotations
+
 import numpy as np
 
 

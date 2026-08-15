@@ -1,5 +1,6 @@
 """Leakage-safe commodity signal model and walk-forward evaluation."""
 from __future__ import annotations
+
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import HistGradientBoostingRegressor
